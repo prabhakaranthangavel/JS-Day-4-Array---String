@@ -1,0 +1,78 @@
+Contents:
+
+1.Arrays
+2.Array types & Examples
+3.String
+4.String types & Examples
+
+*************************************************************************************************************************
+
+what is an Array?
+
+===>array is a single variable that is used to store elements of different data types.
+
+===>Similar to collection of data types.
+
+===>Similar to Sequence of Memory Location.
+
+===>using square bracket [].
+
+===>Two properties an Array
+    1.index 
+    2.length
+
+1.index:
+*index value know access the array.
+*used to print the specific elements. 
+***index value started for [0].***
+***Syntax:arrayname[index value]
+*Example:
+
+var myfamily = ["amma", "appa", "sister","brother"];
+console.log(myfamily); // [ 'amma', 'appa', 'sister', 'brother' ]
+console.log(myfamily[0]); //amma
+console.log(myfamily[1]); //appa
+console.log(myfamily[2]); //sister
+console.log(myfamily[3]); //brother
+
+2.length:    
+*To find the length of array.
+*Syntax: arrayname.length
+***To find the last elements***
+Syntax: arrayname.length-1
+
+===>Changing an Array Element
+
+const name = ["ahbarp", "ahteeg", "levagnaht"];
+// name[0] = "prabha";
+name[1] = "geetha";
+name[2] = "thangavel" 
+console.log(name[0] ); //['prabha']
+
+*************************************************************************************************************************
+
+what is String?
+
+===>The String is represent and manipulate a sequence of characters.
+
+===>“ ”  /  ‘ ‘  ===> using single or double quotes.
+
+===>Example:
+      var a = "Prabha";
+      var b = "ERODE";
+      console.log(b); //"ERODE"  
+
+===>Kindly see the console for string method examples.
+
+===>Formula:
+          S+N=S
+          N+S=N
+          S+S+N=S
+          N+N+S=N
+===>This string Formula can be used one or more entries based on number.  
+
+===>Kindly see the console for Results.
+
+===>To bring a string to a single line, you need to concatenation it.
+
+*************************************************************************************************************************
